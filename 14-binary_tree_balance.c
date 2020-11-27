@@ -36,5 +36,5 @@ int heightbt(const binary_tree_t *tree)
 	if (b_left > b_right)
 		return (b_left);
 	else
-		return (b_right)
+		return (b_right);
 }
