@@ -33,5 +33,8 @@ int heightbt(const binary_tree_t *tree)
 		b_right += 1 + binary_tree_balance(tree->right);
 	else
 		b_right = 1;
-	return (b_left - b_right);
+	if (b_left > b_right)
+		return (b_left);
+	else
+		return (b_right)
 }
